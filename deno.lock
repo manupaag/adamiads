@@ -6,7 +6,11 @@
       "jsr:@deco/deno-ast-wasm@0.5.0": "jsr:@deco/deno-ast-wasm@0.5.0",
       "jsr:@deco/durable@^0.5.3": "jsr:@deco/durable@0.5.3",
       "jsr:@deco/inspect-vscode@0.2.1": "jsr:@deco/inspect-vscode@0.2.1",
+      "jsr:@deco/realtime@0.1.6": "jsr:@deco/realtime@0.1.6",
+      "jsr:@deco/warp@0.3.1": "jsr:@deco/warp@0.3.1",
+      "jsr:@deco/warp@^0.3.4": "jsr:@deco/warp@0.3.4",
       "jsr:@deno/cache-dir@0.10.1": "jsr:@deno/cache-dir@0.10.1",
+      "jsr:@hono/hono@4.5.3": "jsr:@hono/hono@4.5.3",
       "jsr:@hono/hono@^4.5.4": "jsr:@hono/hono@4.5.7",
       "jsr:@luca/esbuild-deno-loader@0.10.3": "jsr:@luca/esbuild-deno-loader@0.10.3",
       "jsr:@std/assert@^0.213.1": "jsr:@std/assert@0.213.1",
@@ -19,6 +23,7 @@
       "jsr:@std/cli@^1.0.3": "jsr:@std/cli@1.0.3",
       "jsr:@std/crypto@1.0.0-rc.1": "jsr:@std/crypto@1.0.0-rc.1",
       "jsr:@std/encoding@0.213": "jsr:@std/encoding@0.213.1",
+      "jsr:@std/encoding@0.224.0": "jsr:@std/encoding@0.224.0",
       "jsr:@std/encoding@^1.0.0-rc.1": "jsr:@std/encoding@1.0.2",
       "jsr:@std/encoding@^1.0.2": "jsr:@std/encoding@1.0.2",
       "jsr:@std/flags@^0.224.0": "jsr:@std/flags@0.224.0",
@@ -33,6 +38,7 @@
       "jsr:@std/io@^0.223": "jsr:@std/io@0.223.0",
       "jsr:@std/io@^0.224.3": "jsr:@std/io@0.224.5",
       "jsr:@std/io@^0.224.4": "jsr:@std/io@0.224.5",
+      "jsr:@std/json@^0.213.1": "jsr:@std/json@0.213.1",
       "jsr:@std/jsonc@0.213": "jsr:@std/jsonc@0.213.1",
       "jsr:@std/log@^0.224.5": "jsr:@std/log@0.224.5",
       "jsr:@std/media-types@^1.0.0-rc.1": "jsr:@std/media-types@1.0.2",
@@ -46,22 +52,36 @@
       "jsr:@std/semver@^0.224.3": "jsr:@std/semver@0.224.3",
       "jsr:@std/streams@^1.0.2": "jsr:@std/streams@1.0.2",
       "jsr:@supabase/supabase-js@2.45.1": "jsr:@supabase/supabase-js@2.45.1",
+      "jsr:@zaubrik/djwt@^3.0.2": "jsr:@zaubrik/djwt@3.0.2",
       "npm:@algolia/client-search": "npm:@algolia/client-search@5.1.0",
       "npm:@algolia/requester-fetch@4.20.0": "npm:@algolia/requester-fetch@4.20.0",
       "npm:@algolia/transporter@4.20.0": "npm:@algolia/transporter@4.20.0",
       "npm:@bokuweb/zstd-wasm@0.0.20": "npm:@bokuweb/zstd-wasm@0.0.20",
+      "npm:@opentelemetry/api-logs@0.43.0": "npm:@opentelemetry/api-logs@0.43.0",
       "npm:@opentelemetry/api-logs@0.52.1": "npm:@opentelemetry/api-logs@0.52.1",
+      "npm:@opentelemetry/api@1.6.0": "npm:@opentelemetry/api@1.6.0",
       "npm:@opentelemetry/api@1.9.0": "npm:@opentelemetry/api@1.9.0",
+      "npm:@opentelemetry/exporter-logs-otlp-http@0.43.0": "npm:@opentelemetry/exporter-logs-otlp-http@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0",
       "npm:@opentelemetry/exporter-logs-otlp-http@0.52.1": "npm:@opentelemetry/exporter-logs-otlp-http@0.52.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/exporter-metrics-otlp-http@0.43.0": "npm:@opentelemetry/exporter-metrics-otlp-http@0.43.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/exporter-metrics-otlp-http@0.52.1": "npm:@opentelemetry/exporter-metrics-otlp-http@0.52.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/exporter-trace-otlp-proto@0.43.0": "npm:@opentelemetry/exporter-trace-otlp-proto@0.43.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/exporter-trace-otlp-proto@0.52.1": "npm:@opentelemetry/exporter-trace-otlp-proto@0.52.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/instrumentation-fetch@0.43.0": "npm:@opentelemetry/instrumentation-fetch@0.43.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/instrumentation-fetch@0.52.1": "npm:@opentelemetry/instrumentation-fetch@0.52.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/instrumentation@0.43.0": "npm:@opentelemetry/instrumentation@0.43.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/instrumentation@0.52.1": "npm:@opentelemetry/instrumentation@0.52.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/resources@1.17.0": "npm:@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/resources@1.25.1": "npm:@opentelemetry/resources@1.25.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/sdk-logs@0.43.0": "npm:@opentelemetry/sdk-logs@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0",
       "npm:@opentelemetry/sdk-logs@0.52.1": "npm:@opentelemetry/sdk-logs@0.52.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/sdk-metrics@1.17.0": "npm:@opentelemetry/sdk-metrics@1.17.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/sdk-metrics@1.25.1": "npm:@opentelemetry/sdk-metrics@1.25.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/sdk-trace-base@1.17.0": "npm:@opentelemetry/sdk-trace-base@1.17.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/sdk-trace-base@1.25.1": "npm:@opentelemetry/sdk-trace-base@1.25.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/sdk-trace-node@1.17.0": "npm:@opentelemetry/sdk-trace-node@1.17.0_@opentelemetry+api@1.6.0",
       "npm:@opentelemetry/sdk-trace-node@1.25.1": "npm:@opentelemetry/sdk-trace-node@1.25.1_@opentelemetry+api@1.9.0",
+      "npm:@opentelemetry/semantic-conventions@1.17.0": "npm:@opentelemetry/semantic-conventions@1.17.0",
       "npm:@opentelemetry/semantic-conventions@1.25.1": "npm:@opentelemetry/semantic-conventions@1.25.1",
       "npm:@supabase/auth-js@2.64.4": "npm:@supabase/auth-js@2.64.4",
       "npm:@supabase/functions-js@2.4.1": "npm:@supabase/functions-js@2.4.1",
@@ -74,11 +94,16 @@
       "npm:colorjs.io": "npm:colorjs.io@0.5.2",
       "npm:cssnano@6.0.1": "npm:cssnano@6.0.1_postcss@8.4.27",
       "npm:daisyui@4.4.19": "npm:daisyui@4.4.19_postcss@8.4.27",
+      "npm:fast-json-patch@3.1.1": "npm:fast-json-patch@3.1.1",
+      "npm:fast-json-patch@^3.1.1": "npm:fast-json-patch@3.1.1",
       "npm:fuse.js@7.0.0": "npm:fuse.js@7.0.0",
+      "npm:ignore@5.3.1": "npm:ignore@5.3.1",
       "npm:lru-cache@10.2.0": "npm:lru-cache@10.2.0",
       "npm:postcss@8.4.27": "npm:postcss@8.4.27",
       "npm:preact-render-to-string@6.4.0": "npm:preact-render-to-string@6.4.0_preact@10.23.2",
       "npm:search-insights@2.9.0": "npm:search-insights@2.9.0",
+      "npm:simple-git@3.25.0": "npm:simple-git@3.25.0",
+      "npm:simple-git@^3.25.0": "npm:simple-git@3.25.0",
       "npm:tailwindcss@3.4.1": "npm:tailwindcss@3.4.1_postcss@8.4.27",
       "npm:typesense@1.7.1": "npm:typesense@1.7.1_@babel+runtime@7.25.0",
       "npm:ua-parser-js@2.0.0-beta.2": "npm:ua-parser-js@2.0.0-beta.2",
@@ -102,6 +127,15 @@
           "npm:fuse.js@7.0.0"
         ]
       },
+      "@deco/realtime@0.1.6": {
+        "integrity": "5868903b2246819834ef080d2b6c4ad5d63e776f1b7c8c1168e6bd5902fd08a0"
+      },
+      "@deco/warp@0.3.1": {
+        "integrity": "2c497fcf054d3ed0c3dbd734e517718b612fc99eeaa1a6dd513ea4861dbf99f5"
+      },
+      "@deco/warp@0.3.4": {
+        "integrity": "c6efacb89b5c4f3602d600e581b2292ccd4ef44e06c85504218912e0b4dc292a"
+      },
       "@deno/cache-dir@0.10.1": {
         "integrity": "30f0a3b975df62adebd859a56f285873c56c6e68190e4370c7a539c6664559ad",
         "dependencies": [
@@ -110,6 +144,9 @@
           "jsr:@std/io@^0.223",
           "jsr:@std/path@^0.223"
         ]
+      },
+      "@hono/hono@4.5.3": {
+        "integrity": "429923b2b3c6586a1450862328d61a1346fee5841e8ae86c494250475057213c"
       },
       "@hono/hono@4.5.7": {
         "integrity": "c569220a4c13575b7bc98cb62742d0fd97d89fb80a3a4a29929ff1ea190765c4"
@@ -151,6 +188,9 @@
       },
       "@std/encoding@0.213.1": {
         "integrity": "fcbb6928713dde941a18ca5db88ca1544d0755ec8fb20fe61e2dc8144b390c62"
+      },
+      "@std/encoding@0.224.0": {
+        "integrity": "efb6dca97d3e9c31392bd5c8cfd9f9fc9decf5a1f4d1f78af7900a493bcf89b5"
       },
       "@std/encoding@1.0.2": {
         "integrity": "7ed640c777e3275550e2cd937c440acdbebfdcd2d13ef67052f0536bf43e707f"
@@ -207,10 +247,14 @@
           "jsr:@std/bytes@^1.0.2-rc.3"
         ]
       },
+      "@std/json@0.213.1": {
+        "integrity": "f572b1de605d07c4a5602445dac54bfc51b1fb87a3710a17aed2608bfca54e68"
+      },
       "@std/jsonc@0.213.1": {
         "integrity": "5578f21aa583b7eb7317eed077ffcde47b294f1056bdbb9aacec407758637bfe",
         "dependencies": [
-          "jsr:@std/assert@^0.213.1"
+          "jsr:@std/assert@^0.213.1",
+          "jsr:@std/json@^0.213.1"
         ]
       },
       "@std/log@0.224.5": {
@@ -266,6 +310,12 @@
           "npm:@supabase/postgrest-js@1.15.8",
           "npm:@supabase/realtime-js@2.10.2",
           "npm:@supabase/storage-js@2.6.0"
+        ]
+      },
+      "@zaubrik/djwt@3.0.2": {
+        "integrity": "8070adaa49cd9e5d2b8ae82fd461132c966ef2f8ff8378db4a4da8df4f17c664",
+        "dependencies": [
+          "jsr:@std/encoding@0.224.0"
         ]
       }
     },
@@ -372,6 +422,16 @@
           "@jridgewell/sourcemap-codec": "@jridgewell/sourcemap-codec@1.5.0"
         }
       },
+      "@kwsites/file-exists@1.1.1": {
+        "integrity": "sha512-m9/5YGR18lIwxSFDwfE3oA7bWuq9kdau6ugN4H2rJeyhFQZcG9AgSHkQtSD15a8WvTgfz9aikZMrKPHvbpqFiw==",
+        "dependencies": {
+          "debug": "debug@4.3.6"
+        }
+      },
+      "@kwsites/promise-deferred@1.1.1": {
+        "integrity": "sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==",
+        "dependencies": {}
+      },
       "@nodelib/fs.scandir@2.1.5": {
         "integrity": "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==",
         "dependencies": {
@@ -390,15 +450,31 @@
           "fastq": "fastq@1.17.1"
         }
       },
+      "@opentelemetry/api-logs@0.43.0": {
+        "integrity": "sha512-0CXMOYPXgAdLM2OzVkiUfAL6QQwWVhnMfUXCqLsITY42FZ9TxAhZIHkoc4mfVxvPuXsBnRYGR8UQZX86p87z4A==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.9.0"
+        }
+      },
       "@opentelemetry/api-logs@0.52.1": {
         "integrity": "sha512-qnSqB2DQ9TPP96dl8cDubDvrUyWc0/sK81xHTK8eSUspzDM3bsewX903qclQFvVhgStjRWdC5bLb3kQqMkfV5A==",
         "dependencies": {
           "@opentelemetry/api": "@opentelemetry/api@1.9.0"
         }
       },
+      "@opentelemetry/api@1.6.0": {
+        "integrity": "sha512-OWlrQAnWn9577PhVgqjUvMr1pg57Bc4jv0iL4w0PRuOSRvq67rvHW9Ie/dZVMvCzhSCB+UxhcY/PmCmFj33Q+g==",
+        "dependencies": {}
+      },
       "@opentelemetry/api@1.9.0": {
         "integrity": "sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==",
         "dependencies": {}
+      },
+      "@opentelemetry/context-async-hooks@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-bDIRCgpKniSyhORU0fTL9ISW6ucU9nruKyXKwYrEBep/2f3uLz8LFyF51ZUK9QxIwBHw6WJudK/2UqttWzER4w==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0"
+        }
       },
       "@opentelemetry/context-async-hooks@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-UW/ge9zjvAEmRWVapOP0qyCvPulWU6cQxGxDbWEFfGOj1VBBZAuOqTo3X6yWmDTD3Xe15ysCZChHncr2xFMIfQ==",
@@ -406,11 +482,29 @@
           "@opentelemetry/api": "@opentelemetry/api@1.9.0"
         }
       },
+      "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-tfnl3h+UefCgx1aeN2xtrmr6BmdWGKXypk0pflQR0urFS40aE88trnkOMc2HTJZbMrqEEl4HsaBeFhwLVXsrJg==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.17.0"
+        }
+      },
       "@opentelemetry/core@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-GeT/l6rBYWVQ4XArluLVB6WWQ8flHbdb6r2FCHC3smtdOAbrJBIv35tpV/yp9bmYUJf+xmZpu9DRTIeJVhFbEQ==",
         "dependencies": {
           "@opentelemetry/api": "@opentelemetry/api@1.9.0",
           "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.25.1"
+        }
+      },
+      "@opentelemetry/exporter-logs-otlp-http@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0": {
+        "integrity": "sha512-obzomlu0ZKUa+rdx4uVVV8WJmPalL4lKlmih6m1w8y2y6yDMKcVAB9SeyTmxlTvuDTuZook2nJMqCf9AKvRwUA==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/api-logs": "@opentelemetry/api-logs@0.43.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-exporter-base": "@opentelemetry/otlp-exporter-base@0.43.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-transformer": "@opentelemetry/otlp-transformer@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0",
+          "@opentelemetry/sdk-logs": "@opentelemetry/sdk-logs@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0"
         }
       },
       "@opentelemetry/exporter-logs-otlp-http@0.52.1_@opentelemetry+api@1.9.0": {
@@ -424,6 +518,17 @@
           "@opentelemetry/sdk-logs": "@opentelemetry/sdk-logs@0.52.1_@opentelemetry+api@1.9.0"
         }
       },
+      "@opentelemetry/exporter-metrics-otlp-http@0.43.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-k0KHKLS/xEWI4e5xrsnHpRk7Adj7JSFbFeKF4ti1d9soek3y85ZC2fTzDQC+ysUYo/lccoAXGR/gjcYgQOe7pg==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-exporter-base": "@opentelemetry/otlp-exporter-base@0.43.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-transformer": "@opentelemetry/otlp-transformer@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0",
+          "@opentelemetry/resources": "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-metrics": "@opentelemetry/sdk-metrics@1.17.0_@opentelemetry+api@1.6.0"
+        }
+      },
       "@opentelemetry/exporter-metrics-otlp-http@0.52.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-oAHPOy1sZi58bwqXaucd19F/v7+qE2EuVslQOEeLQT94CDuZJJ4tbWzx8DpYBTrOSzKqqrMtx9+PMxkrcbxOyQ==",
         "dependencies": {
@@ -433,6 +538,18 @@
           "@opentelemetry/otlp-transformer": "@opentelemetry/otlp-transformer@0.52.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/resources": "@opentelemetry/resources@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/sdk-metrics": "@opentelemetry/sdk-metrics@1.25.1_@opentelemetry+api@1.9.0"
+        }
+      },
+      "@opentelemetry/exporter-trace-otlp-proto@0.43.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-a7gnB0MZ8/+BHH5Lt8UaKPv5yMAGvqj/7TceF4dvaFBOshjBZPrG628creAaKBIpuUwrpUtDRoTb1dbEMeO9tA==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-exporter-base": "@opentelemetry/otlp-exporter-base@0.43.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-proto-exporter-base": "@opentelemetry/otlp-proto-exporter-base@0.43.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-transformer": "@opentelemetry/otlp-transformer@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0",
+          "@opentelemetry/resources": "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-trace-base": "@opentelemetry/sdk-trace-base@1.17.0_@opentelemetry+api@1.6.0"
         }
       },
       "@opentelemetry/exporter-trace-otlp-proto@0.52.1_@opentelemetry+api@1.9.0": {
@@ -446,6 +563,16 @@
           "@opentelemetry/sdk-trace-base": "@opentelemetry/sdk-trace-base@1.25.1_@opentelemetry+api@1.9.0"
         }
       },
+      "@opentelemetry/instrumentation-fetch@0.43.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-sqxsG7NvF4oqfqlsY6JGh6dY3vPgKkjpiFk+xPNz6lkLf4T+HWmrIfnGCp6EV2tpv/LWUgI3oLmRH3jYApxxTg==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/instrumentation": "@opentelemetry/instrumentation@0.43.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-trace-web": "@opentelemetry/sdk-trace-web@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.17.0"
+        }
+      },
       "@opentelemetry/instrumentation-fetch@0.52.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-EJDQXdv1ZGyBifox+8BK+hP0tg29abNPdScE+lW77bUVrThD5vn2dOo+blAS3Z8Od+eqTUTDzXVDIFjGgTK01w==",
         "dependencies": {
@@ -454,6 +581,17 @@
           "@opentelemetry/instrumentation": "@opentelemetry/instrumentation@0.52.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/sdk-trace-web": "@opentelemetry/sdk-trace-web@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.25.1"
+        }
+      },
+      "@opentelemetry/instrumentation@0.43.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-S1uHE+sxaepgp+t8lvIDuRgyjJWisAb733198kwQTUc9ZtYQ2V2gmyCtR1x21ePGVLoMiX/NWY7WA290hwkjJQ==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@types/shimmer": "@types/shimmer@1.2.0",
+          "import-in-the-middle": "import-in-the-middle@1.4.2_acorn@8.12.1",
+          "require-in-the-middle": "require-in-the-middle@7.4.0",
+          "semver": "semver@7.6.3",
+          "shimmer": "shimmer@1.2.1"
         }
       },
       "@opentelemetry/instrumentation@0.52.1_@opentelemetry+api@1.9.0": {
@@ -468,12 +606,40 @@
           "shimmer": "shimmer@1.2.1"
         }
       },
+      "@opentelemetry/otlp-exporter-base@0.43.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-LXNtRFVuPRXB9q0qdvrLikQ3NtT9Jmv255Idryz3RJPhOh/Fa03sBASQoj3D55OH3xazmA90KFHfhJ/d8D8y4A==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0"
+        }
+      },
       "@opentelemetry/otlp-exporter-base@0.52.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-z175NXOtX5ihdlshtYBe5RpGeBoTXVCKPPLiQlD6FHvpM4Ch+p2B0yWKYSrBfLH24H9zjJiBdTrtD+hLlfnXEQ==",
         "dependencies": {
           "@opentelemetry/api": "@opentelemetry/api@1.9.0",
           "@opentelemetry/core": "@opentelemetry/core@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/otlp-transformer": "@opentelemetry/otlp-transformer@0.52.1_@opentelemetry+api@1.9.0"
+        }
+      },
+      "@opentelemetry/otlp-proto-exporter-base@0.43.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-6s74egvK4MbN1ZYpaq5+k8wPe2s/OCUzz6aNwjLHGNAA/f4up6asTMlNE8F5PAmx2nQf2jvx+s90b6DjuEYElg==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/otlp-exporter-base": "@opentelemetry/otlp-exporter-base@0.43.0_@opentelemetry+api@1.6.0",
+          "protobufjs": "protobufjs@7.3.2"
+        }
+      },
+      "@opentelemetry/otlp-transformer@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0": {
+        "integrity": "sha512-KXYmgzWdVBOD5NvPmGW1nEMJjyQ8gK3N8r6pi4HvmEhTp0v4T13qDSax4q0HfsqmbPJR355oqQSJUnu1dHNutw==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/api-logs": "@opentelemetry/api-logs@0.43.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/resources": "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-logs": "@opentelemetry/sdk-logs@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0",
+          "@opentelemetry/sdk-metrics": "@opentelemetry/sdk-metrics@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-trace-base": "@opentelemetry/sdk-trace-base@1.17.0_@opentelemetry+api@1.6.0"
         }
       },
       "@opentelemetry/otlp-transformer@0.52.1_@opentelemetry+api@1.9.0": {
@@ -489,11 +655,25 @@
           "protobufjs": "protobufjs@7.3.2"
         }
       },
+      "@opentelemetry/propagator-b3@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-oklstXImtaly4vDaL+rGtX41YXZR50jp5a7CSEPMcStp1B7ozdZ5G2I5wftrDvOlOcLt/TIkGWDCr/OkVN7kWg==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0"
+        }
+      },
       "@opentelemetry/propagator-b3@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-p6HFscpjrv7//kE+7L+3Vn00VEDUJB0n6ZrjkTYHrJ58QZ8B3ajSJhRbCcY6guQ3PDjTbxWklyvIN2ojVbIb1A==",
         "dependencies": {
           "@opentelemetry/api": "@opentelemetry/api@1.9.0",
           "@opentelemetry/core": "@opentelemetry/core@1.25.1_@opentelemetry+api@1.9.0"
+        }
+      },
+      "@opentelemetry/propagator-jaeger@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-iZzu8K0QkZZ16JH9yox6hZk7/Rxc4SPeGU37pvlB9DtzfNxAEX1FMK9zvowv3ve7r2uzZNpa7JGVUwpy5ewdHQ==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0"
         }
       },
       "@opentelemetry/propagator-jaeger@1.25.1_@opentelemetry+api@1.9.0": {
@@ -503,12 +683,29 @@
           "@opentelemetry/core": "@opentelemetry/core@1.25.1_@opentelemetry+api@1.9.0"
         }
       },
+      "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-+u0ciVnj8lhuL/qGRBPeVYvk7fL+H/vOddfvmOeJaA1KC+5/3UED1c9KoZQlRsNT5Kw1FaK8LkY2NVLYfOVZQw==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.17.0"
+        }
+      },
       "@opentelemetry/resources@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-pkZT+iFYIZsVn6+GzM0kSX+u3MSLCY9md+lIJOoKl/P+gJFfxJte/60Usdp8Ce4rOs8GduUpSPNe1ddGyDT1sQ==",
         "dependencies": {
           "@opentelemetry/api": "@opentelemetry/api@1.9.0",
           "@opentelemetry/core": "@opentelemetry/core@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.25.1"
+        }
+      },
+      "@opentelemetry/sdk-logs@0.43.0_@opentelemetry+api@1.6.0_@opentelemetry+api-logs@0.43.0": {
+        "integrity": "sha512-JyJ2BBRKm37Mc4cSEhFmsMl5ASQn1dkGhEWzAAMSlhPtLRTv5PfvJwhR+Mboaic/eDLAlciwsgijq8IFlf6IgQ==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/api-logs": "@opentelemetry/api-logs@0.43.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/resources": "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0"
         }
       },
       "@opentelemetry/sdk-logs@0.52.1_@opentelemetry+api@1.9.0": {
@@ -520,6 +717,15 @@
           "@opentelemetry/resources": "@opentelemetry/resources@1.25.1_@opentelemetry+api@1.9.0"
         }
       },
+      "@opentelemetry/sdk-metrics@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-HlWM27yGmYuwCoVRe3yg2PqKnIsq0kEF0HQgvkeDWz2NYkq9fFaSspR6kvjxUTbghAlZrabiqbgyKoYpYaXS3w==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/resources": "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0",
+          "lodash.merge": "lodash.merge@4.6.2"
+        }
+      },
       "@opentelemetry/sdk-metrics@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-9Mb7q5ioFL4E4dDrc4wC/A3NTHDat44v4I3p2pLPSxRvqUbDIQyMVr9uK+EU69+HWhlET1VaSrRzwdckWqY15Q==",
         "dependencies": {
@@ -529,6 +735,15 @@
           "lodash.merge": "lodash.merge@4.6.2"
         }
       },
+      "@opentelemetry/sdk-trace-base@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-2T5HA1/1iE36Q9eg6D4zYlC4Y4GcycI1J6NsHPKZY9oWfAxWsoYnRlkPfUqyY5XVtocCo/xHpnJvGNHwzT70oQ==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/resources": "@opentelemetry/resources@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.17.0"
+        }
+      },
       "@opentelemetry/sdk-trace-base@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-C8k4hnEbc5FamuZQ92nTOp8X/diCY56XUTnMiv9UTuJitCzaNNHAVsdm5+HLCdI8SLQsLWIrG38tddMxLVoftw==",
         "dependencies": {
@@ -536,6 +751,18 @@
           "@opentelemetry/core": "@opentelemetry/core@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/resources": "@opentelemetry/resources@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.25.1"
+        }
+      },
+      "@opentelemetry/sdk-trace-node@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-Twlaje+t16b5j62CfcaKU869rP9oyBG/sVQWBI5+kDaWuP/YIFnF4LbovaEahK9GwAnW8vPIn6iYLAl/jZBidA==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/context-async-hooks": "@opentelemetry/context-async-hooks@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/propagator-b3": "@opentelemetry/propagator-b3@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/propagator-jaeger": "@opentelemetry/propagator-jaeger@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-trace-base": "@opentelemetry/sdk-trace-base@1.17.0_@opentelemetry+api@1.6.0",
+          "semver": "semver@7.6.3"
         }
       },
       "@opentelemetry/sdk-trace-node@1.25.1_@opentelemetry+api@1.9.0": {
@@ -550,6 +777,15 @@
           "semver": "semver@7.6.3"
         }
       },
+      "@opentelemetry/sdk-trace-web@1.17.0_@opentelemetry+api@1.6.0": {
+        "integrity": "sha512-vvE0zcco5tuOi16PsG6QkLOfEuzGAdzSLQPQgzRa6OGOo6ZeCpQ2JP+1U5a0pliAhmWYpVsW9u8T0qAYrHh3Bw==",
+        "dependencies": {
+          "@opentelemetry/api": "@opentelemetry/api@1.6.0",
+          "@opentelemetry/core": "@opentelemetry/core@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/sdk-trace-base": "@opentelemetry/sdk-trace-base@1.17.0_@opentelemetry+api@1.6.0",
+          "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.17.0"
+        }
+      },
       "@opentelemetry/sdk-trace-web@1.25.1_@opentelemetry+api@1.9.0": {
         "integrity": "sha512-SS6JaSkHngcBCNdWGthzcvaKGRnDw2AeP57HyTEileLToJ7WLMeV+064iRlVyoT4+e77MRp2T2dDSrmaUyxoNg==",
         "dependencies": {
@@ -558,6 +794,10 @@
           "@opentelemetry/sdk-trace-base": "@opentelemetry/sdk-trace-base@1.25.1_@opentelemetry+api@1.9.0",
           "@opentelemetry/semantic-conventions": "@opentelemetry/semantic-conventions@1.25.1"
         }
+      },
+      "@opentelemetry/semantic-conventions@1.17.0": {
+        "integrity": "sha512-+fguCd2d8d2qruk0H0DsCEy2CTK3t0Tugg7MhZ/UQMvmewbZLNnJ6heSYyzIZWG5IPfAXzoj4f4F/qpM7l4VBA==",
+        "dependencies": {}
       },
       "@opentelemetry/semantic-conventions@1.25.1": {
         "integrity": "sha512-ZDjMJJQRlyk8A1KZFCc+bCbsyrn1wTwdNt56F7twdfUfnHUZUq77/WfONCj8p72NZOyP7pNTdUWSTYC3GTbuuQ==",
@@ -673,6 +913,12 @@
         "integrity": "sha512-3tPRkv1EtkDpzlgyKyI8pGsGZAGPEaXeu0DOj5DI25Ja91bdAYddYHbADRYVrZMRbfW+1l5YwXVDKohDJNQxkQ==",
         "dependencies": {
           "@types/node": "@types/node@18.16.19"
+        }
+      },
+      "acorn-import-assertions@1.9.0_acorn@8.12.1": {
+        "integrity": "sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==",
+        "dependencies": {
+          "acorn": "acorn@8.12.1"
         }
       },
       "acorn-import-attributes@1.9.5_acorn@8.12.1": {
@@ -1025,6 +1271,10 @@
           "micromatch": "micromatch@4.0.7"
         }
       },
+      "fast-json-patch@3.1.1": {
+        "integrity": "sha512-vf6IHUX2SBcA+5/+4883dsIjpBTqmfBjmYiWK1savxQmFk4JfBMLa7ynTYOs1Rolp/T1betJxHiGD3g1Mn8lUQ==",
+        "dependencies": {}
+      },
       "fastparse@1.1.2": {
         "integrity": "sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==",
         "dependencies": {}
@@ -1097,11 +1347,24 @@
           "function-bind": "function-bind@1.1.2"
         }
       },
+      "ignore@5.3.1": {
+        "integrity": "sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==",
+        "dependencies": {}
+      },
       "import-in-the-middle@1.11.0_acorn@8.12.1": {
         "integrity": "sha512-5DimNQGoe0pLUHbR9qK84iWaWjjbsxiqXnw6Qz64+azRgleqv9k2kTt5fw7QsOpmaGYtuxxursnPPsnTKEx10Q==",
         "dependencies": {
           "acorn": "acorn@8.12.1",
           "acorn-import-attributes": "acorn-import-attributes@1.9.5_acorn@8.12.1",
+          "cjs-module-lexer": "cjs-module-lexer@1.3.1",
+          "module-details-from-path": "module-details-from-path@1.0.3"
+        }
+      },
+      "import-in-the-middle@1.4.2_acorn@8.12.1": {
+        "integrity": "sha512-9WOz1Yh/cvO/p69sxRmhyQwrIGGSp7EIdcb+fFNVi7CzQGQB8U1/1XrKVSbEd/GNOAeM0peJtmi7+qphe7NvAw==",
+        "dependencies": {
+          "acorn": "acorn@8.12.1",
+          "acorn-import-assertions": "acorn-import-assertions@1.9.0_acorn@8.12.1",
           "cjs-module-lexer": "cjs-module-lexer@1.3.1",
           "module-details-from-path": "module-details-from-path@1.0.3"
         }
@@ -1660,6 +1923,14 @@
         "integrity": "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==",
         "dependencies": {}
       },
+      "simple-git@3.25.0": {
+        "integrity": "sha512-KIY5sBnzc4yEcJXW7Tdv4viEz8KyG+nU0hay+DWZasvdFOYKeUZ6Xc25LUHHjw0tinPT7O1eY6pzX7pRT1K8rw==",
+        "dependencies": {
+          "@kwsites/file-exists": "@kwsites/file-exists@1.1.1",
+          "@kwsites/promise-deferred": "@kwsites/promise-deferred@1.1.1",
+          "debug": "debug@4.3.6"
+        }
+      },
       "source-map-js@1.2.0": {
         "integrity": "sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==",
         "dependencies": {}
@@ -1855,6 +2126,12 @@
         "dependencies": {}
       }
     }
+  },
+  "redirects": {
+    "https://deco.cx/run": "https://deno.land/x/deco/scripts/run.ts",
+    "https://deno.land/x/deco/daemon/main.ts": "https://deno.land/x/deco@1.81.7/daemon/main.ts",
+    "https://deno.land/x/deco/scripts/run.ts": "https://deno.land/x/deco@1.81.7/scripts/run.ts",
+    "https://esm.sh/v135/@types/babel__helper-validator-identifier@~7/index.d.ts": "https://esm.sh/v135/@types/babel__helper-validator-identifier@7.15.2/index.d.ts"
   },
   "remote": {
     "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.55.8/admin/widgets.ts": "fa00cb641a085cd414b4756566478e7f8ce1336533bfaa78594e3f96cdd78625",
@@ -2428,6 +2705,10 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/clients/formdata.ts": "6b2b43ba4eeb34c564fae7f918a1eade2e81ebe8429dfbd3e8e25c9b87a96417",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/clients/proxy.ts": "26c48a7f60f1650ec15fb29b2449673fd8ca7e19b0dea382467e15c17015530a",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/clients/withManifest.ts": "e372f512cad92aceb9eadb9230898e10a2259a204ac352210ca6d8352b3c75bc",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/jwt/engine.ts": "0b550182cf1eae8d5c982ff48e10b325a373f88d9dafc649c3d50ad79da1a1c9",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/jwt/jwt.ts": "c809e155ee75a9ae25fe78f7b6139f3c4b6e6cfae53f97a130d0161be401ae99",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/jwt/keys.ts": "48969b5b9a7c66fa358cc2a441799c6f4be22dac4e0102853c6211795d9ad678",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/jwt/trusted.ts": "05e8b93256086d2c5afd3d0059fc93b185f22bdbe9115b6543d210f90641c55c",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/workflows/initialize.ts": "0d92f07e4dd1a1d4d5e5a92b5f3c365e10cd63724c8b9241d4a6cab3d677c866",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/workflows/mod.ts": "3a8f4112ecb8b4e12c3c95bed8e684c1b129d848882169571654964d55b68fd3",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/commons/workflows/types.ts": "9655ffb55f4317a792cf70ee64359ba7b016bf0691ff3b462ddfd88cd171746f",
@@ -2436,6 +2717,22 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/components/PreviewNotAvailable.tsx": "00ce6f0574ae5a005ff63818f6088e99c4098ce791923dacdaaf13578d817ef8",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/components/StubSection.tsx": "9d42b02994ce64366d10a9bfe318c1119860394452f235392067f8e3e8ac820e",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/components/section.tsx": "74821be0d7e00b2896a9ad8de6f1d625e88c68edb37561ba0f39a323c33cbc04",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/async.ts": "a1ac8c154f7ebacbeeb0b2420229330296f08c31a599acdbcd31865bb9497818",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/auth.ts": "41ee168ce2a8ae0ff49cf24cd937f1112e3a069012b9cd1db03386a18b05edb3",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/daemon.ts": "831fd6757e93ebd84635aba360dddf2a73c39822981024c917a827d1e3ec7ac3",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/git.ts": "0f366450eaf1a683ffef5d749ff67ab21cb4f17d69471c3f8abd1cbf45f6c193",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/loggings/stream.ts": "1d604c5709097486e8477b6f378174ebf3339060db545c723a19bf9d56f1770f",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/main.ts": "c18dd398963ee0d7317744ffd435fa38d70f08e97de8568ea2c7a66502063742",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/monitor.ts": "e5cae09e3340046891cc8c8faa1ea9367c260fca898ec3c40cbac2eaf0d6c844",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/realtime/app.ts": "77aacc67f1a283555c42f8d5cc0db852461f2e3286a589327902be2a7196ae3d",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/realtime/crdt/bit.ts": "351e56d764cf283f35b21fa9fb8ea8ef2a05ae6d2669817c3cafd17b87f5845b",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/realtime/crdt/text.ts": "145c250179efcea84cb80349f856bdba5a182bd37370ef9296736165675f672c",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/realtime/types.ts": "35c86238bd0cd2fc4760563029a28fd4b9fc82cac984270a2585b6cc9990ed69",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/tunnel.ts": "05b24005a84922bd10b30f398aa3120668f91ca5c45777cc30c026f753881507",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/worker.ts": "27ed8c3acbf9d51f9978bd1be1390ad5211205f3345e869267694187541edc02",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/workers/denoRun.ts": "adcef0c23396cd026277936e59a5a3d2de7ce624861f695d1cd0878f778394ce",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/workers/portpool.ts": "fc8093836a296fd6bdd9d2c817abed9e0b486592c6acaca47b29cb76c5b87d8c",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/daemon/workers/utils.ts": "c7a2557725fad0558c925c5cc47b88d28078d250a074028bf59d3da9493eebc9",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/deco.ts": "fc4e3271bfd6672c08651ffcc200d7cf767402fdd3486ebe77a9ddeb8d2ea2d9",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/deno.json": "d2a2cf64f78fff71ca7bbed27298a1c5c259eb5c24de423a6488ab5c96130c9e",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/deps.ts": "65c81c9e0a2b8f7985e5b78f6c230bb8f377093963b79ab929ce5557c9807d57",
@@ -2460,6 +2757,8 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/manifest/defaults.ts": "e20471c161d25207820f4369ce181a4a2becce519790ab787b213d0c442c33ac",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/manifest/fresh.ts": "8904a4e3ffc2646436a2d0cea9f8fd0c6f66c1283209cc9d00f965060dc29dc3",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/manifest/manifest.ts": "23db32e9751df4cc53d62f87685db505345f98e050688c20f9d554a450d2f905",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/manifest/manifestBuilder.ts": "8f57242885e60a8e65f27506aec1da0896ddc67723687708b77699c18b40f801",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/manifest/manifestGen.ts": "d7e97faf03fb091e8bee2d83f04223fa0dead5ae1aef14936eb12b7b964926c3",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/manifest/utils.ts": "7568363b0ef83e4f252fa8ce558430ba173096b3fba0239adaa1e0f49e22fc08",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/middleware.ts": "9edf69bcb207d8517574a37f7d9e12d3346d52aa39f74a9a5ca42999538644ab",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/engine/schema/builder.ts": "fcdd5d34deff2de023d8a583e7572091c34f9767135a9b07bfe1162a8e645ccc",
@@ -2537,9 +2836,14 @@
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/runtime/routes/styles.css.ts": "aa8350b8bde20d2a3c34918e6b8893fa4518cb64430a585f78815817168dd1d7",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/runtime/routes/workflow.ts": "5e6126cdd748cd7d335c596bee461b0bf31ea6545d1484c5becb096853d8e3eb",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/runtime/utils.ts": "43a8075473ac9bf3641ecab007a27c594f8892a48109805a5b7deb028c8fed7b",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/scripts/apps/bundle.lib.ts": "cf0cb61e1888c71d68d199265f9edda7b57aad0cbd9b05714fa07423e05afa2f",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/scripts/apps/bundle.ts": "72064a02bc8190c47c0bb548b7c484d7960c5fb080686d41549b8987134ed54b",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/scripts/apps/config.ts": "77e1c8001a38b30f9a17aa2bf896f865f3b0298b1626d68c15f7a4654f25105b",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/scripts/formatter.ts": "c90be7018e89aa7d1449b41e241e798783b7bdef9bfc79cb13de1e5af3cecdfa",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/supabase.ts": "c95d2b036607f42b43f808e184ccbdf5c93c75927f5c2e049609d1349a8650c6",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/types.ts": "f7589e9d9075d14d4699c32df220fcf5871f806e229d141c6e15f899f4fa5f2f",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/utils/admin.ts": "aeaba860e46f2c8ef85d5d0848e100618488092b9fda14d5e348ce2eebc259a8",
+    "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/utils/async.ts": "4db27581c8d11050ca3248ca05a1c7663b2c5c7e2dcf63e584329aca12f71243",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/utils/cookies.ts": "772aa3d218885ffe44127294f49983369ccedfc08ef0275f42495321258eb272",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/utils/filesystem.ts": "70ec9977f4e8d154b0284a489b0f68e4cc11caf3fc535ef3ab7695d63e214a06",
     "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.89.2/utils/hasher.ts": "e1afed5d23e08d3fe629d3d5b5ae3b2cc68ed3e66f186097f140a191dc9b9170",
@@ -2573,11 +2877,16 @@
     "https://deno.land/std@0.147.0/path/posix.ts": "c1f7afe274290ea0b51da07ee205653b2964bd74909a82deb07b69a6cc383aaa",
     "https://deno.land/std@0.147.0/path/separator.ts": "fe1816cb765a8068afb3e8f13ad272351c85cbc739af56dacfc7d93d710fe0f9",
     "https://deno.land/std@0.147.0/path/win32.ts": "bd7549042e37879c68ff2f8576a25950abbfca1d696d41d82c7bca0b7e6f452c",
+    "https://deno.land/std@0.150.0/media_types/_util.ts": "ce9b4fc4ba1c447dafab619055e20fd88236ca6bdd7834a21f98bd193c3fbfa1",
+    "https://deno.land/std@0.150.0/media_types/mod.ts": "2d4b6f32a087029272dc59e0a55ae3cc4d1b27b794ccf528e94b1925795b3118",
+    "https://deno.land/std@0.150.0/media_types/vendor/mime-db.v1.52.0.ts": "724cee25fa40f1a52d3937d6b4fbbfdd7791ff55e1b7ac08d9319d5632c7f5af",
     "https://deno.land/std@0.161.0/encoding/base64.ts": "c57868ca7fa2fbe919f57f88a623ad34e3d970d675bdc1ff3a9d02bba7409db2",
     "https://deno.land/std@0.161.0/encoding/base64url.ts": "a5f82a9fa703bd85a5eb8e7c1296bc6529e601ebd9642cc2b5eaa6b38fa9e05a",
     "https://deno.land/std@0.186.0/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
     "https://deno.land/std@0.190.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
     "https://deno.land/std@0.190.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
+    "https://deno.land/std@0.190.0/archive/_common.ts": "3fc6974d41f1d2e55edf839a4574db0b5e6f4f62abb6cc3d2c3ca13eb6d08b07",
+    "https://deno.land/std@0.190.0/archive/tar.ts": "838baf680e545ed780eff41a4a90afff7557f2aec291d0f195d4ab2648b68b5c",
     "https://deno.land/std@0.190.0/async/abortable.ts": "fd682fa46f3b7b16b4606a5ab52a7ce309434b76f820d3221bdfb862719a15d7",
     "https://deno.land/std@0.190.0/async/deadline.ts": "58f72a3cc0fcb731b2cc055ba046f4b5be3349ff6bf98f2e793c3b969354aab2",
     "https://deno.land/std@0.190.0/async/debounce.ts": "adab11d04ca38d699444ac8a9d9856b4155e8dda2afd07ce78276c01ea5a4332",
@@ -2588,6 +2897,7 @@
     "https://deno.land/std@0.190.0/async/pool.ts": "f1b8d3df4d7fd3c73f8cbc91cc2e8b8e950910f1eab94230b443944d7584c657",
     "https://deno.land/std@0.190.0/async/retry.ts": "c9248325ec08cc2cceb7618472e77589a51a25cee460e07b6096be34966c2ead",
     "https://deno.land/std@0.190.0/async/tee.ts": "47e42d35f622650b02234d43803d0383a89eb4387e1b83b5a40106d18ae36757",
+    "https://deno.land/std@0.190.0/bytes/copy.ts": "939d89e302a9761dcf1d9c937c7711174ed74c59eef40a1e4569a05c9de88219",
     "https://deno.land/std@0.190.0/crypto/_fnv/fnv32.ts": "e4649dfdefc5c987ed53c3c25db62db771a06d9d1b9c36d2b5cf0853b8e82153",
     "https://deno.land/std@0.190.0/crypto/_fnv/fnv64.ts": "bfa0e4702061fdb490a14e6bf5f9168a22fb022b307c5723499469bfefca555e",
     "https://deno.land/std@0.190.0/crypto/_fnv/mod.ts": "f956a95f58910f223e420340b7404702ecd429603acd4491fa77af84f746040c",
@@ -2603,8 +2913,20 @@
     "https://deno.land/std@0.190.0/encoding/base64.ts": "144ae6234c1fbe5b68666c711dc15b1e9ee2aef6d42b3b4345bf9a6c91d70d0d",
     "https://deno.land/std@0.190.0/encoding/base64url.ts": "2ed4ba122b20fedf226c5d337cf22ee2024fa73a8f85d915d442af7e9ce1fae1",
     "https://deno.land/std@0.190.0/encoding/hex.ts": "b4b1a7cb678745b0bf181ed8cf2498c7be00d121a7de244b752fbf9c7d9c48cd",
+    "https://deno.land/std@0.190.0/flags/mod.ts": "17f444ddbee43c5487568de0c6a076c7729cfe90d96d2ffcd2b8f8adadafb6e8",
     "https://deno.land/std@0.190.0/fmt/colors.ts": "d67e3cd9f472535241a8e410d33423980bec45047e343577554d3356e1f0ef4e",
     "https://deno.land/std@0.190.0/fs/_util.ts": "579038bebc3bd35c43a6a7766f7d91fbacdf44bc03468e9d3134297bb99ed4f9",
+    "https://deno.land/std@0.190.0/fs/copy.ts": "14214efd94fc3aa6db1e4af2b4b9578e50f7362b7f3725d5a14ad259a5df26c8",
+    "https://deno.land/std@0.190.0/fs/empty_dir.ts": "c3d2da4c7352fab1cf144a1ecfef58090769e8af633678e0f3fabaef98594688",
+    "https://deno.land/std@0.190.0/fs/ensure_dir.ts": "dc64c4c75c64721d4e3fb681f1382f803ff3d2868f08563ff923fdd20d071c40",
+    "https://deno.land/std@0.190.0/fs/ensure_file.ts": "c38602670bfaf259d86ca824a94e6cb9e5eb73757fefa4ebf43a90dd017d53d9",
+    "https://deno.land/std@0.190.0/fs/ensure_link.ts": "c0f5b2f0ec094ed52b9128eccb1ee23362a617457aa0f699b145d4883f5b2fb4",
+    "https://deno.land/std@0.190.0/fs/ensure_symlink.ts": "5006ab2f458159c56d689b53b1e48d57e05eeb1eaf64e677f7f76a30bc4fdba1",
+    "https://deno.land/std@0.190.0/fs/eol.ts": "f1f2eb348a750c34500741987b21d65607f352cf7205f48f4319d417fff42842",
+    "https://deno.land/std@0.190.0/fs/exists.ts": "29c26bca8584a22876be7cb8844f1b6c8fc35e9af514576b78f5c6884d7ed02d",
+    "https://deno.land/std@0.190.0/fs/expand_glob.ts": "e4f56259a0a70fe23f05215b00de3ac5e6ba46646ab2a06ebbe9b010f81c972a",
+    "https://deno.land/std@0.190.0/fs/mod.ts": "bc3d0acd488cc7b42627044caf47d72019846d459279544e1934418955ba4898",
+    "https://deno.land/std@0.190.0/fs/move.ts": "b4f8f46730b40c32ea3c0bc8eb0fd0e8139249a698883c7b3756424cf19785c9",
     "https://deno.land/std@0.190.0/fs/walk.ts": "920be35a7376db6c0b5b1caf1486fb962925e38c9825f90367f8f26b5e5d0897",
     "https://deno.land/std@0.190.0/http/_negotiation/common.ts": "14d1a52427ab258a4b7161cd80e1d8a207b7cc64b46e911780f57ead5f4323c6",
     "https://deno.land/std@0.190.0/http/_negotiation/encoding.ts": "ff747d107277c88cb7a6a62a08eeb8d56dad91564cbcccb30694d5dc126dcc53",
@@ -2620,6 +2942,14 @@
     "https://deno.land/std@0.190.0/http/negotiation.ts": "46e74a6bad4b857333a58dc5b50fe8e5a4d5267e97292293ea65f980bd918086",
     "https://deno.land/std@0.190.0/http/server.ts": "1b23463b5b36e4eebc495417f6af47a6f7d52e3294827a1226d2a1aab23d9d20",
     "https://deno.land/std@0.190.0/http/server_sent_event.ts": "f752c9e4f0eba247a3fead8bfe0883f44e04d31c2dcc88776ba5230b7165a460",
+    "https://deno.land/std@0.190.0/io/buf_reader.ts": "06fff3337091c49e99ebd2dd790c9a90364c087a2953ea081667400fd6c6cebb",
+    "https://deno.land/std@0.190.0/io/buf_writer.ts": "48c33c8f00b61dcbc7958706741cec8e59810bd307bc6a326cbd474fe8346dfd",
+    "https://deno.land/std@0.190.0/io/buffer.ts": "17f4410eaaa60a8a85733e8891349a619eadfbbe42e2f319283ce2b8f29723ab",
+    "https://deno.land/std@0.190.0/io/multi_reader.ts": "9c2a0a31686c44b277e16da1d97b4686a986edcee48409b84be25eedbc39b271",
+    "https://deno.land/std@0.190.0/log/handlers.ts": "38871ecbfa67b0d39dc3384210439ac9a13cba6118b912236f9011b5989b9a4d",
+    "https://deno.land/std@0.190.0/log/levels.ts": "6309147664e9e008cd6671610f2505c4c95f181f6bae4816a84b33e0aec66859",
+    "https://deno.land/std@0.190.0/log/logger.ts": "257ceb47e3f5f872068073de9809b015a7400e8d86dd40563c1d80169e578f71",
+    "https://deno.land/std@0.190.0/log/mod.ts": "36d156ad18de3f1806c6ddafa4965129be99ccafc27f1813de528d65b6c528bf",
     "https://deno.land/std@0.190.0/media_types/_util.ts": "916efbd30b6148a716f110e67a4db29d6949bf4048997b754415dd7e42c52378",
     "https://deno.land/std@0.190.0/media_types/parse_media_type.ts": "835c4112e1357e95b4f10d7cdea5ae1801967e444f48673ff8f1cb4d32af9920",
     "https://deno.land/std@0.190.0/path/_constants.ts": "e49961f6f4f48039c0dfed3c3f93e963ca3d92791c9d478ac5b43183413136e0",
@@ -2631,6 +2961,9 @@
     "https://deno.land/std@0.190.0/path/posix.ts": "8b7c67ac338714b30c816079303d0285dd24af6b284f7ad63da5b27372a2c94d",
     "https://deno.land/std@0.190.0/path/separator.ts": "0fb679739d0d1d7bf45b68dacfb4ec7563597a902edbaf3c59b50d5bcadd93b1",
     "https://deno.land/std@0.190.0/path/win32.ts": "d186344e5583bcbf8b18af416d13d82b35a317116e6460a5a3953508c3de5bba",
+    "https://deno.land/std@0.190.0/streams/_common.ts": "f45cba84f0d813de3326466095539602364a9ba521f804cc758f7a475cda692d",
+    "https://deno.land/std@0.190.0/streams/copy.ts": "75cbc795ff89291df22ddca5252de88b2e16d40c85d02840593386a8a1454f71",
+    "https://deno.land/std@0.190.0/streams/merge_readable_streams.ts": "5d6302888f4bb0616dafb5768771be0aec9bedc05fbae6b3d726d05ffbec5b15",
     "https://deno.land/std@0.190.0/testing/_diff.ts": "1a3c044aedf77647d6cac86b798c6417603361b66b54c53331b312caeb447aea",
     "https://deno.land/std@0.190.0/testing/_format.ts": "a69126e8a469009adf4cf2a50af889aca364c349797e63174884a52ff75cf4c7",
     "https://deno.land/std@0.190.0/testing/asserts.ts": "e16d98b4d73ffc4ed498d717307a12500ae4f2cbe668f1a215632d19fcffc22f",
@@ -2640,6 +2973,7 @@
     "https://deno.land/std@0.208.0/fs/ensure_dir.ts": "dc64c4c75c64721d4e3fb681f1382f803ff3d2868f08563ff923fdd20d071c40",
     "https://deno.land/std@0.208.0/fs/expand_glob.ts": "4f98c508fc9e40d6311d2f7fd88aaad05235cc506388c22dda315e095305811d",
     "https://deno.land/std@0.208.0/fs/walk.ts": "c1e6b43f72a46e89b630140308bd51a4795d416a416b4cfb7cd4bd1e25946723",
+    "https://deno.land/std@0.208.0/http/server_sent_event_stream.ts": "91a62d6c8fde557217f21e9cd759e2d439be8c20c9b699cf73feb5a0e76df338",
     "https://deno.land/std@0.208.0/path/_common/assert_path.ts": "061e4d093d4ba5aebceb2c4da3318bfe3289e868570e9d3a8e327d91c2958946",
     "https://deno.land/std@0.208.0/path/_common/basename.ts": "0d978ff818f339cd3b1d09dc914881f4d15617432ae519c1b8fdc09ff8d3789a",
     "https://deno.land/std@0.208.0/path/_common/common.ts": "9e4233b2eeb50f8b2ae10ecc2108f58583aea6fd3e8907827020282dc2b76143",
@@ -2774,6 +3108,7 @@
     "https://deno.land/std@0.216.0/fs/walk.ts": "78e1d01a9f75715614bf8d6e58bd77d9fafb1222c41194e607cd3849d7a0e771",
     "https://deno.land/std@0.216.0/http/server.ts": "6dce295abc169d0956ae00432441331b3425afad4d79e8b3475739be2f04d614",
     "https://deno.land/std@0.216.0/http/status.ts": "ed61b4882af2514a81aefd3245e8df4c47b9a8e54929a903577643d2d1ebf514",
+    "https://deno.land/std@0.216.0/json/common.ts": "33f1a4f39a45e2f9f357823fd0b5cf88b63fb4784b8c9a28f8120f70a20b23e9",
     "https://deno.land/std@0.216.0/jsonc/mod.ts": "82722888823e1af5a8f7918bf810ea581f68081064d529218533acad6cb7c2bc",
     "https://deno.land/std@0.216.0/jsonc/parse.ts": "747a0753289fdbfcb9cb86b709b56348c98abc107fbb0a7f350b87af4425a76a",
     "https://deno.land/std@0.216.0/media_types/_db.ts": "1d695d9fe1c785e523d6de7191b33f33ecc7866db77358a4f966221cca56e2f9",
@@ -2901,11 +3236,99 @@
     "https://deno.land/std@0.216.0/semver/try_parse_range.ts": "239e0d711c5745da8c4dcda3c0797b4b5a83bfe494a51d3a0f005472cdc7b016",
     "https://deno.land/std@0.216.0/semver/types.ts": "8ed52c8cfc59e249a0dbab597d8c31bcf10405dcbe9714585055ea02252ae0d0",
     "https://deno.land/std@0.216.0/testing/snapshot.ts": "35ca1c8e8bfb98d7b7e794f1b7be8d992483fcff572540e41396f22a5bddb944",
+    "https://deno.land/std@0.221.0/encoding/_util.ts": "beacef316c1255da9bc8e95afb1fa56ed69baef919c88dc06ae6cb7a6103d376",
+    "https://deno.land/std@0.221.0/encoding/base64.ts": "8ccae67a1227b875340a8582ff707f37b131df435b07080d3bb58e07f5f97807",
+    "https://deno.land/std@0.221.0/encoding/base64url.ts": "9cc46cf510436be63ac00ebf97a7de1993e603ca58e1853b344bf90d80ea9945",
     "https://deno.land/x/async@v2.0.2/notify.ts": "3127ab5835c97527fdf978a5ec5844d71a2fd62a75988db6f175aac6f61259d0",
     "https://deno.land/x/async@v2.0.2/queue.ts": "4df05fbaf376d37379224b68b2b8506a45be835f799139437e7bfc143db5127f",
+    "https://deno.land/x/async@v2.1.0/notify.ts": "8b4150ca1063586084825a34e997b845ccbe5014aed69327489e1fc89569ec0e",
+    "https://deno.land/x/async@v2.1.0/queue.ts": "8ef2e16aa4e257b4104b20adb945273b153a433dc0bdf0d6cc34af92f22735a5",
     "https://deno.land/x/code_block_writer@12.0.0/mod.ts": "2c3448060e47c9d08604c8f40dee34343f553f33edcdfebbf648442be33205e5",
     "https://deno.land/x/code_block_writer@12.0.0/utils/string_utils.ts": "60cb4ec8bd335bf241ef785ccec51e809d576ff8e8d29da43d2273b69ce2a6ff",
     "https://deno.land/x/croner@6.0.3/dist/croner.js": "a28ce3562d41922dd3060542001ded2e8546528e495b554e42ecdf0b1db5c382",
+    "https://deno.land/x/deco@1.81.7/blocks/account.ts": "8044268235e1ddd2a6ee1f19f69428e18f377abf9fada65f12fbefe0591aa9ea",
+    "https://deno.land/x/deco@1.81.7/blocks/action.ts": "3b6986dd6e51a56158caa37c5fcdf06cbd66f28c3da41b5e329c1a0eaa3b0923",
+    "https://deno.land/x/deco@1.81.7/blocks/app.ts": "8b91717178fef31d15a4c7b7c2c52f45e8fa991fc59f5c672602b7052c200dad",
+    "https://deno.land/x/deco@1.81.7/blocks/appsUtil.ts": "439dc18c0ffea87a010b73abb6108e305f6dc1ebf90ddb95c4c08724b2c6d3cf",
+    "https://deno.land/x/deco@1.81.7/blocks/flag.ts": "ee6ee05b23f3b60e3810f996b486a84be4d23b4cf64386f5dcb23381d79b3cc9",
+    "https://deno.land/x/deco@1.81.7/blocks/function.ts": "0603bc768158d1fb9acab2d401c9503384e9c4c19ceaa08735baf5c272f406f9",
+    "https://deno.land/x/deco@1.81.7/blocks/handler.ts": "325e215ffccfb2968deb77957069cd9c3b4cac393308db0fca9444a2e82c7c96",
+    "https://deno.land/x/deco@1.81.7/blocks/index.ts": "3b08726431df325491b9a7cf0344db91700f52fe720f2e55c3877fda977f0fcf",
+    "https://deno.land/x/deco@1.81.7/blocks/loader.ts": "bde31b60f65de83666ea2759f5f3c0ee5e3a058b214e74444c891242f43dbb3e",
+    "https://deno.land/x/deco@1.81.7/blocks/matcher.ts": "8825b460d1aefd2a3751418c9ea4e37351ec35205e5238ee8c016da4e4681289",
+    "https://deno.land/x/deco@1.81.7/blocks/page.tsx": "8510de9ce8f5b1758fd4adf763d738b1dc868afb5535ce74eb0bd5a71bd2b6f5",
+    "https://deno.land/x/deco@1.81.7/blocks/propsLoader.ts": "e8e65dc51f8e0c3a903334302b922e3c7be321badeb7a37d92d6059501df2b93",
+    "https://deno.land/x/deco@1.81.7/blocks/section.ts": "c35dad1c96ae53eb58d05994ae7c7789916c484d5c9f53b9efe43599ab199dde",
+    "https://deno.land/x/deco@1.81.7/blocks/utils.tsx": "4f7b1eade4337bb7ff10ef4b0dce7ccc4431fad397866c84ae183ce9ceb3d026",
+    "https://deno.land/x/deco@1.81.7/blocks/workflow.ts": "300a5cbc87aa1bcb80daba4fd7a657c0add6cec96b58f221a63f60ae5dfe3735",
+    "https://deno.land/x/deco@1.81.7/clients/proxy.ts": "2740181b9a38ad6c8cb194dfb618eba9a3b815061e3b99f92dbb1f4e6b2b9d59",
+    "https://deno.land/x/deco@1.81.7/commons/jwt/deps.ts": "240e2e6c0bf41ff6dc608efd25b6707b0b9d7d2798bbf816c62ba392102a26c8",
+    "https://deno.land/x/deco@1.81.7/commons/jwt/engine.ts": "0b550182cf1eae8d5c982ff48e10b325a373f88d9dafc649c3d50ad79da1a1c9",
+    "https://deno.land/x/deco@1.81.7/commons/jwt/jwt.ts": "b9df26468ff03666d3692bf1e5194b3c2a648800f3b19c63b9b6d63e9e570ea5",
+    "https://deno.land/x/deco@1.81.7/commons/jwt/keys.ts": "48969b5b9a7c66fa358cc2a441799c6f4be22dac4e0102853c6211795d9ad678",
+    "https://deno.land/x/deco@1.81.7/commons/jwt/trusted.ts": "05e8b93256086d2c5afd3d0059fc93b185f22bdbe9115b6543d210f90641c55c",
+    "https://deno.land/x/deco@1.81.7/components/JsonViewer.tsx": "1ca295aa44299179c1e504d4688fd0c696b4cb7bf1baa111abfe1af982f3bc50",
+    "https://deno.land/x/deco@1.81.7/components/PreviewNotAvailable.tsx": "744487e26bc8f957f7556a4411a1572c27bcdb71c25afa01a79cd7b8ec6a8d2f",
+    "https://deno.land/x/deco@1.81.7/components/StubSection.tsx": "f5dfc19e33348ae4a9484d3bb982e033ea88b9a7440d170be151c361b479b584",
+    "https://deno.land/x/deco@1.81.7/components/section.tsx": "ccbcf3666d0af8336508317037e98ceeeda6b442e273a804b397a8dab074d2ee",
+    "https://deno.land/x/deco@1.81.7/daemon/auth/checker.ts": "463f112beb1692fc9a3c78333b6edf524af8ac1774c2441f4818f2250fe0d1a6",
+    "https://deno.land/x/deco@1.81.7/daemon/daemon.ts": "91267c1d7553ae4d1ba0cfd6a5bd44fa1b9309f3dd66cc328889003b0fab4392",
+    "https://deno.land/x/deco@1.81.7/daemon/deps.ts": "6e585002a70336497b1b213211d0a838c6bb962361709330ebe912de4433571c",
+    "https://deno.land/x/deco@1.81.7/daemon/git.ts": "05018827dd9f57b806895642029dce4814b8202ae89e2217a8b4512295fb1845",
+    "https://deno.land/x/deco@1.81.7/daemon/loggings/mux.ts": "3bdeaa10e208cd0c752f224570be6125e7ce8a441537928915f12c905c909144",
+    "https://deno.land/x/deco@1.81.7/daemon/loggings/stream.ts": "6d9dcc38dc628bfc28dd06292a51c27706796f339500be3eb60a400a574073b9",
+    "https://deno.land/x/deco@1.81.7/daemon/main.ts": "13f935896652f79a3c972301a86cd3e42c3be91bbdeceec9ff465981a874c14c",
+    "https://deno.land/x/deco@1.81.7/daemon/meta/cache.ts": "3e61edc4320157379218b9f1c988c7a9534107ef88b69ccf60019d7f79dc85c0",
+    "https://deno.land/x/deco@1.81.7/daemon/realtime/fs.ts": "2a6e9dc0c44db0ee476989ed9bf52b9079a53b241113aa4eb75e43a66d19f6c6",
+    "https://deno.land/x/deco@1.81.7/daemon/realtime/object.ts": "99111abc3cc6ecae6fbd9dd030d54eaf5be24ad0202228a6fbb9d10cddb5bec5",
+    "https://deno.land/x/deco@1.81.7/daemon/tunnel.ts": "fde6437fce811416fa2287ce2edccaf8fa43193b91f6368e8731cf6e141f3da6",
+    "https://deno.land/x/deco@1.81.7/daemon/workers/denoRun.ts": "8fdbe260095d0fe5836be146aae4442aa44ed22a24b96b85edb588e9c1fdc86b",
+    "https://deno.land/x/deco@1.81.7/daemon/workers/portpool.ts": "fc8093836a296fd6bdd9d2c817abed9e0b486592c6acaca47b29cb76c5b87d8c",
+    "https://deno.land/x/deco@1.81.7/daemon/workers/utils.ts": "c7a2557725fad0558c925c5cc47b88d28078d250a074028bf59d3da9493eebc9",
+    "https://deno.land/x/deco@1.81.7/deco.ts": "f59c1f73229ba07af8e61bd643edecbba80fb8830353a58ff2a640cd291146df",
+    "https://deno.land/x/deco@1.81.7/deno.json": "43559b6b8a93746f629ff6bee612d668b6b0264813526afc48be4e62d04a4d52",
+    "https://deno.land/x/deco@1.81.7/deps.ts": "ee17005daceddf9faf509af478384105d41a4eb945421aba0b7dc7ca86d116ef",
+    "https://deno.land/x/deco@1.81.7/engine/core/hints.ts": "c7aec801245e6f1b8424597319ca9e6d9f91ce40eaac7cf56cb71210f5de91c2",
+    "https://deno.land/x/deco@1.81.7/engine/core/mod.ts": "2139138f3a3f49b67ea6523f1f716ced33c29d9e508321343f486e4287b1fec1",
+    "https://deno.land/x/deco@1.81.7/engine/core/resolver.ts": "b89727af749733bf0862a2145eb929e9288799f6d927315e0a297e76a67fbaf8",
+    "https://deno.land/x/deco@1.81.7/engine/core/utils.ts": "283775ec357c1b8be175b5a7e796ba02b9ea4f3055e485607c48e27a060f8792",
+    "https://deno.land/x/deco@1.81.7/engine/decofile/constants.ts": "ecf6bd5202bd0cca393590b3533a2ce4dcbb2121c0888d8cafbd1c6b8686d57a",
+    "https://deno.land/x/deco@1.81.7/engine/decofile/fsFolder.ts": "7d4791e11335afe6c97eb6e3378ade697f9c9030ccbe1ee489db93af57cf2952",
+    "https://deno.land/x/deco@1.81.7/engine/errors.ts": "791b3f9ac7096df23298469514fa6ce2bb10e5df5548e7de320589c7fa7dc328",
+    "https://deno.land/x/deco@1.81.7/engine/manifest/defaults.ts": "e20471c161d25207820f4369ce181a4a2becce519790ab787b213d0c442c33ac",
+    "https://deno.land/x/deco@1.81.7/engine/manifest/manifestBuilder.ts": "994236390a52cfe9116e30d6dab5c23b8ee9ba65452262bd5f19b1cf4f9cf8a6",
+    "https://deno.land/x/deco@1.81.7/engine/manifest/manifestGen.ts": "3ebb752fcea42d7d08f8aaac9a3d6a325a80fec1129f479bd3084d6f561cfd58",
+    "https://deno.land/x/deco@1.81.7/engine/middleware.ts": "9edf69bcb207d8517574a37f7d9e12d3346d52aa39f74a9a5ca42999538644ab",
+    "https://deno.land/x/deco@1.81.7/hooks/usePartialSection.ts": "c808f7548568a80b61b4a2f0028cc38e8fec5acda52b47f872986629321425d3",
+    "https://deno.land/x/deco@1.81.7/hooks/useSection.ts": "cccf89d3c9d9a99014e6046906cb04853835c402417469c007b6534a511174a0",
+    "https://deno.land/x/deco@1.81.7/live.ts": "2728ee4a35115a1b3ebbdb2a3e0711f92d45c9db60b7de7aa636f155ab6919ee",
+    "https://deno.land/x/deco@1.81.7/observability/otel/config.ts": "4249b7edac75b6068ada7d80fd471e6352a3cfe29c39464c087fa6a87dda2011",
+    "https://deno.land/x/deco@1.81.7/observability/otel/context.ts": "76abca3670de91ba1c558011e72197455cade22cdb635894c9dc75cedf3e2876",
+    "https://deno.land/x/deco@1.81.7/observability/otel/instrumentation/deno-runtime.ts": "335531a2755a058af6836761563cd7ce30e42e99332ba646c659decb431c2c38",
+    "https://deno.land/x/deco@1.81.7/observability/otel/logger.ts": "01b05f817d7bf3f70ee816f08cfe00b78f963b3f2bc08c29c8950a23ea8ee262",
+    "https://deno.land/x/deco@1.81.7/observability/otel/metrics.ts": "a9251a61db7065da4f292a805a81148dd1a1d8b33cadd53d10b85a09115c59a0",
+    "https://deno.land/x/deco@1.81.7/observability/otel/samplers/debug.ts": "507aaaafa89aebf0940dfe0e4708553aff8136806d76be1cf6b6b6ecf093ab0f",
+    "https://deno.land/x/deco@1.81.7/observability/otel/samplers/urlBased.ts": "fe04cd22a4ec72f6d05f15970e0a13f561de0af3eb3f0e68800c322733930020",
+    "https://deno.land/x/deco@1.81.7/runtime/caches/common.ts": "92096de4206249c8b6ebd3c02566516b7cf68d473e978151f975513f055e04b5",
+    "https://deno.land/x/deco@1.81.7/runtime/caches/denoKV.ts": "3d776a4d1f0e29407e42f89e9ef5f88ee54d0a47b6810929018924e871d777c0",
+    "https://deno.land/x/deco@1.81.7/runtime/caches/fileSystem.ts": "038d24f165a96c2caa7a92fe36fe63f141ff7317f9133b77ae6f8a5aacab4309",
+    "https://deno.land/x/deco@1.81.7/runtime/caches/mod.ts": "d746d254a819c0ec3c9dd998754ac95ba87849e482b357f89f5afa86dd9eceec",
+    "https://deno.land/x/deco@1.81.7/runtime/caches/tiered.ts": "42a241821b18b38803a7e6786e7a456a88febeaf772ad39bdf9f639f66f987c6",
+    "https://deno.land/x/deco@1.81.7/runtime/fresh/Bindings.tsx": "67ddfa3a54572d51bab53e1f7d3f605da2c2d02634880b34f4b76425b1c4edc1",
+    "https://deno.land/x/deco@1.81.7/runtime/htmx/Bindings.tsx": "054ed50049c9fb6da511e3c6f58ccd8e432c1d419c6faae4b568bb6e8c4d67f7",
+    "https://deno.land/x/deco@1.81.7/runtime/utils.ts": "d8643e2263d361113550ac42b0ea8630b50aa494c1aee34ae85bceb48639f563",
+    "https://deno.land/x/deco@1.81.7/scripts/apps/bundle.lib.ts": "90d5008eb620c3b2763a860fef2c72b5b7c96027c562ba2f852c1c724193699c",
+    "https://deno.land/x/deco@1.81.7/scripts/apps/config.ts": "82c48bb1564da5c4c9670c970dde18a40e96a943a327c61c50d9ba8e1e4077b9",
+    "https://deno.land/x/deco@1.81.7/scripts/run.ts": "5c7ea1e5b90c4c46825102cf49f241a863b87d80dbc567124f7e386bf696c8d8",
+    "https://deno.land/x/deco@1.81.7/utils/filesystem.ts": "2551d9948cb9290619a7176c9f1cbc762094cdd733d963ad2d717d9324708eeb",
+    "https://deno.land/x/deco@1.81.7/utils/formatter.ts": "c90be7018e89aa7d1449b41e241e798783b7bdef9bfc79cb13de1e5af3cecdfa",
+    "https://deno.land/x/deco@1.81.7/utils/invoke.server.ts": "b3a8df54c0467799260eda6819a630dbf23f6e654db431df08be29d2c18dc6f4",
+    "https://deno.land/x/deco@1.81.7/utils/log.ts": "3294402269105ac9e9a2e943ef5e901932e51e44b92833de627728532f58783a",
+    "https://deno.land/x/deco@1.81.7/utils/object.ts": "17e99f2ba6a189ca8159f58f4c2ba8a4955f72df9fe8f297ef984bd75b93417c",
+    "https://deno.land/x/deco@1.81.7/utils/patched_fetch.ts": "138e34c6bd55fdbbc9355210d6ec16da1cef957a566b76e561dcf8f0db94fc07",
+    "https://deno.land/x/deco@1.81.7/utils/rand.ts": "c774b0301d61f00f0290f94ae9c79b21ac67ac781f00c1db02df712c677b2aeb",
+    "https://deno.land/x/deco@1.81.7/utils/sync.ts": "271e974df900ed4fb461ed9aa86f397b7f6873424b05349516fd1201e67ad17c",
+    "https://deno.land/x/deco@1.81.7/utils/userAgent.ts": "c4c3c6fa1e2557ba61f0c332bf33e2cf3686145984469bfc908116d2007c4668",
     "https://deno.land/x/denoflate@1.2.1/mod.ts": "f5628e44b80b3d80ed525afa2ba0f12408e3849db817d47a883b801f9ce69dd6",
     "https://deno.land/x/denoflate@1.2.1/pkg/denoflate.js": "b9f9ad9457d3f12f28b1fb35c555f57443427f74decb403113d67364e4f2caf4",
     "https://deno.land/x/denoflate@1.2.1/pkg/denoflate_bg.wasm.js": "d581956245407a2115a3d7e8d85a9641c032940a8e810acbd59ca86afd34d44d",
@@ -2914,6 +3337,11 @@
     "https://deno.land/x/djwt@v2.8/mod.ts": "7abba8518688e88648882a95161b42391ac6043c142b1ab491b36f712189e1e1",
     "https://deno.land/x/djwt@v2.8/signature.ts": "a5649368a4b433b2810e7d47f53661fe3b0f7fe1778cb49234ceae3d6e861185",
     "https://deno.land/x/djwt@v2.8/util.ts": "0d78272bd23a4656ceabe137d496fcca37cf3de36212477642aa5d85a880d87a",
+    "https://deno.land/x/djwt@v3.0.2/algorithm.ts": "b1c6645f9dbd6e6c47c123a3b18c28b956f91c65ed17f5b6d5d968fc3750542b",
+    "https://deno.land/x/djwt@v3.0.2/deps.ts": "a7954fe567f2097b4f6aca11d091b6df658e485a817ac4dee47257ed5c28fd6e",
+    "https://deno.land/x/djwt@v3.0.2/mod.ts": "962d8f2c4d6a4db111f45d777b152356aec31ba7db0ca664601175a422629857",
+    "https://deno.land/x/djwt@v3.0.2/signature.ts": "16238fbf558267c85dd6c0178045f006c8b914a7301db87149f3318326569272",
+    "https://deno.land/x/djwt@v3.0.2/util.ts": "5cb264d2125c553678e11446bcfa0494025d120e3f59d0a3ab38f6800def697d",
     "https://deno.land/x/dotenv@v3.2.2/load.ts": "cbd76a0aee01aad8d09222afaa1dd04b84d9d3e44637503b01bf77a91df9e041",
     "https://deno.land/x/dotenv@v3.2.2/mod.ts": "077b48773de9205266a0b44c3c3a3c3083449ed64bb0b6cc461b95720678d38e",
     "https://deno.land/x/dotenv@v3.2.2/util.ts": "693730877b13f8ead2b79b2aa31e2a0652862f7dc0c5f6d2f313f4d39c7b7670",
@@ -2943,7 +3371,13 @@
     "https://deno.land/x/fresh@1.6.8/src/runtime/build_id.ts": "8376e70e42ce456dfa6932c638409d2ef1bca4833b4ceba0bf74510080a7f976",
     "https://deno.land/x/fresh@1.6.8/src/runtime/csp.ts": "9ee900e9b0b786057b1009da5976298c202d1b86d1f1e4d2510bde5f06530ac9",
     "https://deno.land/x/fresh@1.6.8/src/runtime/deserializer.ts": "1b83e75fa61c48b074ea121f33647d1ed15c68fa2f2a11b0a7f7a12cd38af627",
+    "https://deno.land/x/fresh@1.6.8/src/runtime/entrypoints/client.ts": "a9224606e41bc58d81f37b7125650432920a7d136bdf416051e925ac9bbd1f05",
+    "https://deno.land/x/fresh@1.6.8/src/runtime/entrypoints/deserializer.ts": "e836f44c454e1f67c86eab30f108eb9be05a38489604a24e418b564b77058b96",
+    "https://deno.land/x/fresh@1.6.8/src/runtime/entrypoints/main.ts": "de3aa5cbd9b3abfa825939b58bc8df088ab183e042c0447b37180f4ea31c613c",
+    "https://deno.land/x/fresh@1.6.8/src/runtime/entrypoints/main_dev.ts": "d2960e339119e45017954c7cf6798b9e0a3110d173cc378e1e3e7bc84bd68c34",
+    "https://deno.land/x/fresh@1.6.8/src/runtime/entrypoints/signals.ts": "782c81f97d125ad4f92aa0160dad3a2e8b6ea7a61cec7fdab87bbbbd8c0d215c",
     "https://deno.land/x/fresh@1.6.8/src/runtime/head.ts": "0f9932874497ab6e57ed1ba01d549e843523df4a5d36ef97460e7a43e3132fdc",
+    "https://deno.land/x/fresh@1.6.8/src/runtime/polyfills.ts": "c3de932b2f23df9a4ade1ab4f8890730c0db0a71bf85faa41742a1763631e917",
     "https://deno.land/x/fresh@1.6.8/src/runtime/utils.ts": "4f40630c308e8ea7d53860687905caf1a2f2a46ad8692f24e905a8e996b584c3",
     "https://deno.land/x/fresh@1.6.8/src/server/boot.ts": "969da650e882adba6559af3784b90473d357201345d4e5b24a0cf5e582882d6b",
     "https://deno.land/x/fresh@1.6.8/src/server/build_id.ts": "82d9cb985de6b1e38c3108e5a00667b16e80eedc145d73835d6b44349ebe6389",
@@ -2979,6 +3413,7 @@
     "https://deno.land/x/inspect_vscode@0.2.1/inspector.ts": "2352646679a70c62ae63f221dae56c427d07aecc11cf550f7e84efec6d5fba44",
     "https://deno.land/x/inspect_vscode@0.2.1/mod.ts": "3905e3efef3f847b23da42031bfd53bd56af469ca484b05874a37021178b34f4",
     "https://deno.land/x/inspect_vscode@0.2.1/search.ts": "f062e985a03a4568f8ac0afff83edb0939fd7cded3e6a4e54f4f7e6446cb6d42",
+    "https://deno.land/x/murmurhash@v1.0.0/mod.ts": "13fd2c5534dfd22ffbfcd4255ea13e47a2f2b99e9c90a83dc43e814a0e278829",
     "https://deno.land/x/openai@v4.19.1/_shims/MultipartBody.ts": "fe06a56b54ae358c9cf99823096e34b36795fdba2e17513f0e9539210edd797d",
     "https://deno.land/x/openai@v4.19.1/_shims/mod.ts": "df7a905c0bd873d3dab745b9c63403594b1804131b5f533e1e72a2f2747cba74",
     "https://deno.land/x/openai@v4.19.1/core.ts": "f63dd18846582debcbf9834b944f1a65c879b6f9624466d97198291dc0915400",
@@ -3031,6 +3466,9 @@
     "https://deno.land/x/ts_morph@21.0.1/common/typescript.js": "d72ba73c3eb625ff755075dbde78df2a844d22190ef1ad74d0c5dcd7005ba85e",
     "https://deno.land/x/ts_morph@21.0.1/mod.ts": "adba9b82f24865d15d2c78ef6074b9a7457011719056c9928c800f130a617c93",
     "https://deno.land/x/ts_morph@21.0.1/ts_morph.js": "fddb96abdf0cb0ac427d52757c4ffa6ff7fe9a772846d9bf6167518b7b276cad",
+    "https://deno.land/x/weakcache@v1.1.4/LRFUExpirer.js": "87caf4b0d57b0cd5acdb7507941c8269ef3e8a83adab4a3aa32e2b443e57bb51",
+    "https://deno.land/x/weakcache@v1.1.4/index.js": "e2a2895916f93e3cd82919c26c6006f45b4fbc0f24f814329f41d0da8adc58b5",
+    "https://deno.land/x/xhr@0.3.0/mod.ts": "094aacd627fd9635cd942053bf8032b5223b909858fa9dc8ffa583752ff63b20",
     "https://denopkg.com/deco-cx/durable@0.5.3/api/service.ts": "531191e7762cefae029fa655a2ffc084394f737fd1d02658c8316c2d492e0116",
     "https://denopkg.com/deco-cx/durable@0.5.3/async/deferred.ts": "42790112f36a75a57db4a96d33974a936deb7b04d25c6084a9fa8a49f135def8",
     "https://denopkg.com/deco-cx/durable@0.5.3/async/event.ts": "3b061d74db372292d6bd3578db3e75cc394428a4dac3822aef12d3e1cd325a31",
@@ -3061,6 +3499,11 @@
     "https://denopkg.com/deco-cx/durable@0.5.3/security/jwt.ts": "e09a7fe856de9d8c0da4957634bbad8484ab054c1567a13492325ee3f4e7478e",
     "https://denopkg.com/deco-cx/durable@0.5.3/security/keys.ts": "b7e24eaea07bed77cf6409e134690166f191f42d124b8efe01c01f71cade2d3c",
     "https://denopkg.com/deco-cx/durable@0.5.3/types.ts": "cc559900185387dafb842b4f21c8b0b6b566216d8837e842a709bc4e563aaea5",
+    "https://denopkg.com/mcandeia/zstd-wasm@0.20.2/deno/zstd.deno.js": "189187a43a4bdc8d695ff2f6525c8d3461cbd715333123e502a6a3bd84c272b4",
+    "https://denopkg.com/mcandeia/zstd-wasm@0.20.2/deno/zstd.encoded.wasm.ts": "87e04064657bf5082b47a709931f8eb3f0d2fe537a8c650cfb5c997b7b460d07",
+    "https://denopkg.com/mcandeia/zstd-wasm@0.20.2/deno/zstd.ts": "fe187053509e61497dcc89533c7d47ad45805392c1fd45d37a9197770b8093c5",
+    "https://esm.sh/*@preact/signals-core@1.5.1": "de8dffabec1aab92430087751f0c451af2853ee5163fe7761fd94d70263b7ea6",
+    "https://esm.sh/*@preact/signals@1.2.2": "8b174b406f1c00fdf3930fbb4ddc556162e6fd0dfe84a5ec300e9ac1776cbf42",
     "https://esm.sh/*preact-render-to-string@6.3.1": "07807f027acf54b994b630bbb2a923f5a835f9544e01144f67ab292e90a431e4",
     "https://esm.sh/@anthropic-ai/sdk@0.21.1": "13a100932f9d6aabee7ae2ea57d4e7fc7188132835585a188f14cf069bfd4bbf",
     "https://esm.sh/@babel/helper-validator-identifier@7.22.20": "daace34e028130297fddf97f3ef6deb4b05ec3eb46f5c5cacd6eaa43d6323b0a",
@@ -3070,6 +3513,7 @@
     "https://esm.sh/github-slugger@2.0.0?pin=v135": "77bdab3e2528daadc9b63f7c9615e85d4630a3e174aa94f48d207f3fd71d02c9",
     "https://esm.sh/he@1.2.0?pin=v135": "388a449d0b163506f1a5ed1b9fe178c29433c9a3af5b2465c92ec4adb0f35792",
     "https://esm.sh/katex@0.16.8/dist/katex.mjs?pin=v135": "9cf7668f77237b8993333732787ca8c98cfd26bed510a73e51762cf9a7ef07db",
+    "https://esm.sh/lru-cache@10.2.0": "ab365fe89221ed4249a0d3319dfb45bc263a1cdc2b20e1754de300077a9c3654",
     "https://esm.sh/marked-gfm-heading-id@3.1.0?pin=v135": "44bfd669be9ec17b358b759437e76fbb69a0ff4517532e4dfc511e8f278e0cd3",
     "https://esm.sh/marked@9.1.1?pin=v135": "860fd670d2803df8da3d81e4262aa170e6e8e023aebabfb9a1791880a66aa29f",
     "https://esm.sh/preact@10.19.6": "281b115a9b79918c6b73382b4e818d6f9e48db9064b7fd4f75a45a4edee54145",
@@ -3083,12 +3527,15 @@
     "https://esm.sh/prismjs@1.27.0/components/prism-typescript.js?no-check": "5c24a3eed8664ce1aec673dfe9b052a6aaff5324201dbb8f0602b21a73add1f0",
     "https://esm.sh/prismjs@1.29.0?pin=v135": "67e956514925401c964a7fc1205258ac2203cbd2aa246f55be11a3109fe9b6b9",
     "https://esm.sh/sanitize-html@2.8.1?target=esnext&pin=v135": "2605687c91e08c4a1e0c0b0966dc82fe4afea18bd1560a1c1ed03d79b69882ae",
+    "https://esm.sh/stable/preact@10.16.0/denonext/preact.mjs": "01dc8bdf124926c611c0711081b9c162cf2735cccad7c2bc9914766f633ddb1d",
     "https://esm.sh/stable/preact@10.19.6/denonext/compat.js": "a65ef066079d24ff3e3bc54d3e57502c5a0b95b5ce2fdcde3bed7c5b44936129",
     "https://esm.sh/stable/preact@10.19.6/denonext/debug.js": "a0a13b66504bd149d6f0e1facde5a610f029be9c6b5539008934badfe0d87ed5",
     "https://esm.sh/stable/preact@10.19.6/denonext/devtools.js": "662746ca22e50eb0db3356f936c891b465aea20d8f4d809262f612e66b3d705e",
     "https://esm.sh/stable/preact@10.19.6/denonext/hooks.js": "60270845e547f2e2c8d94cdb0bf9a0376e5b02bd6bb2b8694720274c2378890e",
     "https://esm.sh/stable/preact@10.19.6/denonext/jsx-runtime.js": "97e9eeb40443de53a8cb3b70f264d04db2bbfc5c2298fdb15d1c471283ccd6aa",
     "https://esm.sh/stable/preact@10.19.6/denonext/preact.mjs": "68491395d287895f4d697e403ded5b0ebb8fed0494f9e870c422bc017e5e52f5",
+    "https://esm.sh/ua-parser-js@2.0.0-beta.2": "116312292634081db94ccdce45cbfd3e9b9901864acb5d1426ff0fa61f723134",
+    "https://esm.sh/ua-parser-js@2.0.0-beta.2/extensions": "97f8603805687f6d8a8d2b288ce1bf906e407344ec146abb1a08b476e88af257",
     "https://esm.sh/v135/@anthropic-ai/sdk@0.21.1/denonext/_shims.js": "3cda5c625e4afbc211efcccc08dc11ff8b60ed6dce2fa1bff2d4c23a14dff0f2",
     "https://esm.sh/v135/@anthropic-ai/sdk@0.21.1/denonext/_shims/MultipartBody.js": "748493390203ceb360ca300c413cdc5c1ea2b9d86ec452f32a75008e1998d3a6",
     "https://esm.sh/v135/@anthropic-ai/sdk@0.21.1/denonext/_shims/auto/runtime.js": "55c72ef7210b166ba1eb237b35579e993bb81d9e973e7627cde8f3664af34693",
@@ -3111,11 +3558,22 @@
     "https://esm.sh/v135/@anthropic-ai/sdk@0.21.1/denonext/uploads.js": "d47f1c4c454f3f105b8ee3bb14247bb6d7cea9e9771b397b53f9f7c92cb514a0",
     "https://esm.sh/v135/@anthropic-ai/sdk@0.21.1/denonext/version.js": "cc5dbc26e5b08b1055a84b212a18d48dcd7c656fea3db244bc0ec147d846f387",
     "https://esm.sh/v135/@babel/helper-validator-identifier@7.22.20/denonext/helper-validator-identifier.mjs": "1ad312a9040d1f3b096e90a3e6a9da7ecfc99662140852fe3862a316c2591c93",
+    "https://esm.sh/v135/@preact/signals-core@1.5.1/denonext/signals-core.mjs": "dc36965311a6fda182378c0b3aec418ffe60fb2bb6020d9948d105862a27ddf8",
+    "https://esm.sh/v135/@preact/signals@1.2.2/X-ZS8q/denonext/signals.mjs": "f2cb7b0335f75be2827049bf6a1ce3c6bd35e74c7a922a1eeb338b0312d61556",
+    "https://esm.sh/v135/@supabase/functions-js@2.1.5/denonext/functions-js.mjs": "739affd2df20c1affd91991c3731c2537d270b82be5cdbd926c43be40eb2fdc5",
+    "https://esm.sh/v135/@supabase/gotrue-js@2.57.0/denonext/gotrue-js.mjs": "a4e6768643628fc5445683f4f58090ea5b65c51c3abb165dc0a385cf8eae2121",
+    "https://esm.sh/v135/@supabase/node-fetch@2.6.14/denonext/node-fetch.mjs": "23a71af3512da67a8757ab1e2356fa22565758444ea1fc08e0de0e8d4625e8aa",
+    "https://esm.sh/v135/@supabase/postgrest-js@1.9.0/denonext/postgrest-js.mjs": "e6239e65dca3c73527af617ee406934dc509a33e4082a9da9c3aa6c430519cdf",
+    "https://esm.sh/v135/@supabase/realtime-js@2.8.4/denonext/realtime-js.mjs": "9f8af6f82b095b1b1d336a92c4ff8519a5b7f783a1e09eab005114b983cafd5d",
+    "https://esm.sh/v135/@supabase/storage-js@2.5.4/denonext/storage-js.mjs": "dff68679fb795ec7e157b8f51cb0b8c544d6c3d57ecc093f5b15eb909439efcd",
+    "https://esm.sh/v135/@supabase/supabase-js@2.7.0": "0f113012475bd87de0d7bcb1b51d3c63a0d2275e90bea17576ddd10cf036aab8",
+    "https://esm.sh/v135/@supabase/supabase-js@2.7.0/denonext/supabase-js.mjs": "331a7d9dcc23c852d63b26bf95c07da70a33d518e86a6f61c8b87295dbfd58d0",
     "https://esm.sh/v135/algoliasearch@4.20.0/denonext/algoliasearch.mjs": "597d17680a34a71d7904b0293ce8fd6593966f87c28ebed58e793efb0ad91194",
     "https://esm.sh/v135/aws-sdk@2.1585.0/denonext/aws-sdk.mjs": "b0e46f44244359c1f54c7ac6d999ffc77e5d534f5bfeac0038d7bb9ccd906c96",
     "https://esm.sh/v135/base64-js@1.5.1/esnext/base64-js.mjs": "349361f227d34ff80b673a7741ea0b509dbb6c9c89d650b86a0b55705e25c8dc",
     "https://esm.sh/v135/buffer@6.0.3/esnext/buffer.mjs": "f6de86b04b58a64f82d591b05fff1626ed7c8f4a9c7726c274c96abef31326c3",
     "https://esm.sh/v135/cockatiel@3.1.1/es2019/cockatiel.mjs": "063968736d48a917ef63ce337b695ba7486ff532b64fa875d064b245f5384974",
+    "https://esm.sh/v135/cross-fetch@3.1.8/denonext/cross-fetch.mjs": "8fba9e7c3fbaf0d2168beb63ce0cd21b5bfbfbd77e2fcbf8d957d533a71222f6",
     "https://esm.sh/v135/deepmerge@4.3.1/esnext/deepmerge.mjs": "426fb4ada3c99ddd720d7c28ce216d8fcb47543e3d64ead96d97b1103cc16487",
     "https://esm.sh/v135/dom-serializer@2.0.0/esnext/dom-serializer.mjs": "87460f6bde59cb3823912201b076223e5ab690c1075d071904567de591310bec",
     "https://esm.sh/v135/domelementtype@2.3.0/esnext/domelementtype.mjs": "1e4dd3222620668a50040012a6b0d1582e89e7a570826a079a11226a7929e20c",
@@ -3124,6 +3582,7 @@
     "https://esm.sh/v135/entities@4.5.0/esnext/entities.mjs": "d0527287d7e369214aca377e8848635d4d7709ccb80b13c16c86e6f44038cd1d",
     "https://esm.sh/v135/entities@4.5.0/esnext/lib/decode.js": "a94034fcf3b2ec6828ed2911b2f42bdeeab26f38ecc759fb1881e440c6c54b92",
     "https://esm.sh/v135/entities@4.5.0/esnext/lib/escape.js": "e966e5cd345e447920c1cb304fc34b56d24ce6fe9f031bfb55fe350b93baf58f",
+    "https://esm.sh/v135/es5-ext@0.10.62/denonext/global.js": "2f51d9acef1f761faaa542da919b3c747744ea29fe709d0a904fd531716a93d6",
     "https://esm.sh/v135/escape-string-regexp@4.0.0/esnext/escape-string-regexp.mjs": "7f00803b40f74aee2522808c0cf76057a715636dd84f4f679731b0e935cd3a56",
     "https://esm.sh/v135/github-slugger@2.0.0/denonext/github-slugger.mjs": "42ff6fe7ba4f63d8a048970e5a32cd5b0348905dde3f9e270d90e44a6e7635ae",
     "https://esm.sh/v135/he@1.2.0/denonext/he.mjs": "1ffb3a2e1892578e01267fda4b32f30dd0b4b3be7393fe239b0ea30cf1d654c7",
@@ -3132,6 +3591,7 @@
     "https://esm.sh/v135/is-plain-object@5.0.0/esnext/is-plain-object.mjs": "d990fb0c3e251072728088888873225a35995aedff2e3b443b5e3c33efe1be3b",
     "https://esm.sh/v135/jmespath@0.16.0/denonext/jmespath.mjs": "e4f7b388250a42e7be4c2599bef42c48b8e57fb0bb68a4dd09f9b2ec38fb7216",
     "https://esm.sh/v135/katex@0.16.8/denonext/dist/katex.js": "bc364d4cfbb8f11d62531fbdb634e13abef4b6a41456c8161ac4dc61b3523d36",
+    "https://esm.sh/v135/lru-cache@10.2.0/denonext/lru-cache.mjs": "f524a6e9a51f3da40659f7ad3ad251e55e18b7ae807ea3a9a546f355e7c426bb",
     "https://esm.sh/v135/marked-gfm-heading-id@3.1.0/denonext/marked-gfm-heading-id.mjs": "b5785d6c48ad4a00c184cd3f798acfdc9bab045d726e4424a889fddb736a814b",
     "https://esm.sh/v135/marked@9.1.1/denonext/marked.mjs": "c8b18bb280217c43f1c1e7a4861b55dc0cb421301da4cb032cba8657373a98f4",
     "https://esm.sh/v135/nanoid@3.3.7/esnext/non-secure.js": "2a517102048d17d3d109b3dce2039de23da294f01a07f556cb5f9d1f7f2e90ab",
@@ -3167,13 +3627,17 @@
     "https://esm.sh/v135/postcss@8.4.31/esnext/lib/warning.js": "ec2bac028c46d239e2d0de0e252bbc224a096fe89456669e021e2efc50d57c25",
     "https://esm.sh/v135/postcss@8.4.31/esnext/postcss.mjs": "21318d6ed521ffd9353a20e0775021e99d4686ebaef0350976451de4ad8013a5",
     "https://esm.sh/v135/preact-render-to-string@6.3.1/X-ZS8q/denonext/preact-render-to-string.mjs": "bcaceb8c3938310aee3dd4f7b6f2136cf0b2b890988c2e6679485e052e76e920",
+    "https://esm.sh/v135/preact@10.16.0?pin=102": "026a6ad31db4d853387067a806499f85581a755378e4211f027b90c33002767a",
     "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-diff.js": "f652153b1b3e6d0721f343085ba4ed515102f1e8ac8f9539312b4ac39597ba55",
     "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-jsx.js": "7fd7be4359fcd5c25cecdd70dd3a7b0e95f95709e53169b8abe92ad7da715a70",
     "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-tsx.js": "d17030f8b706e6bbea0503bc67ca0339377af0c8a86fa043be73220ec64fbf60",
     "https://esm.sh/v135/prismjs@1.27.0/denonext/components/prism-typescript.js": "2864b0748ebd4a82e24df1db06054d5e01ee485309b70951aac485c68bd17d08",
     "https://esm.sh/v135/prismjs@1.29.0/denonext/prismjs.mjs": "0ccddfab01b35eb5fd1e32ee2230809343dfec5bab2ec50039aee88c5ec1e3e7",
     "https://esm.sh/v135/sanitize-html@2.8.1/esnext/sanitize-html.mjs": "f4d7c5f3b1fbe23a23a08b8cd8e8eb60c987bce0eab6e3aeec42b6139ce11008",
-    "https://esm.sh/v135/uuid@8.0.0/denonext/uuid.mjs": "443bcfeac0e26f5cc1ce48513a2d119ad11647d6f2c8cf7508c9667ae553b1a9"
+    "https://esm.sh/v135/ua-parser-js@2.0.0-beta.2/denonext/extensions.js": "dc5748a6c155df62c97addacf76a203becb8950bf6ddd37e79ee9644443b77d6",
+    "https://esm.sh/v135/ua-parser-js@2.0.0-beta.2/denonext/ua-parser-js.mjs": "57292bcd19d5b0084294e8de9f6f3a2e6060cf3736d8904c42e7a03842e235cc",
+    "https://esm.sh/v135/uuid@8.0.0/denonext/uuid.mjs": "443bcfeac0e26f5cc1ce48513a2d119ad11647d6f2c8cf7508c9667ae553b1a9",
+    "https://esm.sh/v135/websocket@1.0.34/denonext/websocket.mjs": "dfe5d62007e9f7430d561e2376fe47caa9d04cb016d83d3386fcc2206a90296b"
   },
   "workspace": {
     "dependencies": [
